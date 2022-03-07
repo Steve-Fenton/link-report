@@ -1,0 +1,18 @@
+{
+    "name": "LinkReporter", 
+    "version": "0.0.1.0",
+    "description": "Gets a list of links on the page.",
+    "action": {},
+    "manifest_version": 3,
+    "icons": {
+        "128": "icon-128.png",
+        "500": "icon-500.png"
+    },
+	"background": {
+        "service_worker": "linkreporter.js"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab"
+     ]
+}
